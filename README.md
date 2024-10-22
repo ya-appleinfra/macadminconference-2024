@@ -29,7 +29,7 @@ These problems cannot be detected automatically and need a [trigger](##triggers)
 
 ## Triggers
 
-Some of the healing steps cant be detected automatically on the Mac itself and you should trigger them manually. There are two ways to do this — specify them in the `TRIGGER_STEPS` variable in `script.py` or put the JSON file in the path specified in `TRIGGER_FILE` variable. File has a higher priority so if it will be found it will override the `TRIGGER_STEPS` variable. File should look like this:
+Some of the healing steps can't be detected automatically on the Mac itself and you should trigger them manually. There are two ways to do this — specify them in the `TRIGGER_STEPS` variable in `script.py` or put the JSON file in the path specified in `TRIGGER_FILE` variable. File has a higher priority so if it will be found it will override the `TRIGGER_STEPS` variable. File should look like this:
 
 ```json
 {
