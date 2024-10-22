@@ -4,7 +4,7 @@
 
 This is a [py2app](https://py2app.readthedocs.io/en/latest/) application you can use to fix some common macOS problems. Follow this [insructions](#how-to-build) to build and run it.
 
-> NOTE: this heavily depends on Yandex Popup that can be found [here](https://github.com/ya-appleinfra/yandex-popup)
+> NOTE: this tool heavily depends on Yandex Popup that can be found [here](https://github.com/ya-appleinfra/yandex-popup)
 
 These problems are detected by the app and fixed automatically:
 
