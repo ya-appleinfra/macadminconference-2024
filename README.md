@@ -20,9 +20,11 @@ These problems cannot be detected automatically and need a [trigger](##triggers)
 
 ## How to build
 
+> NOTE: to make this tool work properly in your environment, make sure to update [customizable variables](https://github.com/ya-appleinfra/macadminconference-2024/blob/main/script.py#L22-L31)
+
 1. Install [Python 3 v3.10.11](https://www.python.org/ftp/python/3.10.11/python-3.10.11-macos11.pkg). Important — it should be universal so you can build a universal application that will work on both ARM and x64 Macs
 2. Install py2app v0.27 — `python3 -m pip install py2app==0.27`
-3. Сhange the variables in `setup.py` to your environment and taste
+3. Сhange the variables in `setup.py` and `script.py` to your environment and taste
 4. Specify certData in `py2app.sh` if you have a certificate you want to sign the app with
 5. Run `/bin/bash ${path_to_macos_healing_tool_folder}/py2app.sh`
 6. Get the сompiled application in the `dist` folder
